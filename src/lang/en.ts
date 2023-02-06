@@ -1,4 +1,4 @@
 export default {
-    baoguochuku: 'Outbound',
-    sousuo: 'Search'
-  }
+  baoguochuku: 'Outbound',
+  sousuo: 'Search'
+}

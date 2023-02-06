@@ -3,13 +3,13 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   root: true,
-  env:{
-    browser:true,
-    node:true,
-    es6:true
+  env: {
+    browser: true,
+    node: true,
+    es6: true
   },
-  parser:'vue-eslint-parser',
-  'extends': [
+  parser: 'vue-eslint-parser',
+  extends: [
     'plugin:vue/vue3-essential',
     'eslint:recommended',
     'plugin:prettier/recommended',
@@ -22,8 +22,8 @@ module.exports = {
     sourceType: 'module',
     jsxPragma: 'React',
     ecmaFeatures: {
-      jsx: true,
-    },
+      jsx: true
+    }
   },
   rules: {
     'vue/script-setup-uses-vars': 'error',
@@ -43,15 +43,15 @@ module.exports = {
       'error',
       {
         argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_',
-      },
+        varsIgnorePattern: '^_'
+      }
     ],
     'no-unused-vars': [
       'error',
       {
         argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_',
-      },
+        varsIgnorePattern: '^_'
+      }
     ],
     'space-before-function-paren': 'off',
     'vue/attributes-order': 'off',
@@ -69,12 +69,12 @@ module.exports = {
         html: {
           void: 'always',
           normal: 'never',
-          component: 'always',
+          component: 'always'
         },
         svg: 'always',
-        math: 'always',
-      },
+        math: 'always'
+      }
     ],
-    'vue/multi-word-component-names': 'off',
+    'vue/multi-word-component-names': 'off'
   }
 }

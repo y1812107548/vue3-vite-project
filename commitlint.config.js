@@ -1,2 +1,5 @@
 /* eslint-disable */
-module.exports = { extends: ['@commitlint/config-conventional'] };
+module.exports = {
+  ignores: [(commit) => commit.includes('init')],
+  extends: ['@commitlint/config-conventional'],
+};
